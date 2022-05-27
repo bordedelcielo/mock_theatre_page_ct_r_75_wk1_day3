@@ -2,6 +2,10 @@ body {
     margin: 0px;
 }
 
+a {
+    color: white;
+}
+
 .footer {
     display:flex;
     flex-direction: row;
@@ -95,6 +99,7 @@ body {
     font-size:x-large;
     justify-items:center;
     text-align: center;
+    min-width: 120px;
 }
 
 .image{
@@ -129,10 +134,14 @@ body {
     z-index: 3;
     top: 0;
     width: 100%;
+    padding-left: 18%;
 }
 
 .navbar {
-    height: 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
 }
 
 #navbar_li a {
@@ -146,4 +155,11 @@ body {
 
 #navbar_li a:hover {
     background-color: AF8D8F;
+}
+
+.griot {
+    min-width: 300px;
+    background-color: black;
+    color: white;
+    margin-left: 50px;
 }
